@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 380px;
+    background: url(images/bg.png);
+    background-size: cover;
+    padding: 25px;
+    border-radius: 20px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.left img{
+    width: 40px;
+}
+header .left h5{
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+.right img{
+    width: 50px;
+}
+.card-details{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-details .left,.right{
+    color: white;
+    font-weight: bold;
+}
